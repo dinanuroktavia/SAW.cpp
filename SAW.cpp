@@ -27,3 +27,9 @@ class atm{
   cout << "  Silahkan Masukkan Pin Anda : ";
     cin >> pass;
   if (strcmp(pass, "151097") != 0)
+ {  
+   
+   cout<<"  Pin Anda Salah"<<endl;
+   cout<<"---------------------------------------------------------------"<<endl;
+   coba++;
+  }
