@@ -66,3 +66,16 @@ class atm{
    cout<<"  Terima Kasih"<<endl;
    cout<<"==============================================================="<<endl; 
   }
+  
+  else{
+  
+  atas:
+  cout<<"==============================================================="<<endl;
+
+  cout<<"  1. Cek Saldo "<<endl;
+
+  cout<<"  2. Penarikan Uang Tunai"<<endl;
+
+  cout<<"  3. Transfer Uang"<<endl;
+  cout<<"==============================================================="<<endl;
+
