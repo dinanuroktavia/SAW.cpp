@@ -150,3 +150,21 @@ class atm{
  }
  }
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    int main(){
+
+  atm bank;
+  bank.login();
+  bank.display();
+  
+  
+  
+ return 0;
+ }
