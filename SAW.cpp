@@ -21,4 +21,9 @@ class atm{
   cout<<"  Selamat Datang di ATM BNI\n"<<endl;
   cout<<"==============================================================="<<endl;
  }
- 
+ int atm::login(){
+  
+ do{
+  cout << "  Silahkan Masukkan Pin Anda : ";
+    cin >> pass;
+  if (strcmp(pass, "151097") != 0)
