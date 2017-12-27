@@ -16,4 +16,9 @@ class atm{
    char pass[100],yes;
    float s,saldo,Transfer,ambil;
  };
+ atm::atm(){
+  cout<<"===============================================================\n"<<endl;
+  cout<<"  Selamat Datang di ATM BNI\n"<<endl;
+  cout<<"==============================================================="<<endl;
+ }
  
