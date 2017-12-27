@@ -33,3 +33,10 @@ class atm{
    cout<<"---------------------------------------------------------------"<<endl;
    coba++;
   }
+  
+  else
+  {
+   cout << "  Anda berhasil Login" << endl;
+   
+   break;
+  }
