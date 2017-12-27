@@ -51,3 +51,9 @@ class atm{
    
          
   }
+  
+  } while (strcmp(pass, "15101997") != 0);
+     
+      return coba;
+
+ }
