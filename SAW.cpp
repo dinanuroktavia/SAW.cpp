@@ -40,3 +40,14 @@ class atm{
    
    break;
   }
+  
+  if (coba == 3)
+  {   cout<<"==============================================================="<<endl;
+   cout << "  Kartu Anda diblokir" << endl;
+   cout<<"  Mohon maaf tolong segera hubungi Teler anda!"<<endl;
+   cout<<"==============================================================="<<endl;
+   break;
+   
+   
+         
+  }
