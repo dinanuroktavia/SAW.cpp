@@ -104,3 +104,25 @@ class atm{
   cout<<"  Sisa saldo anda Rp."<<s<<endl;
         cout<<"===============================================================\n"<<endl;
   }
+  
+    else if (pilih==3)
+
+  {cout<<"  Masukan no rekening tujuan :";
+
+  cin>>no;
+
+  cout<<"  Masukan jumlah uang :Rp.";
+
+  cin>>Transfer;
+
+  s=1000000-Transfer;
+  
+  cout<<"  No rek : "<<no<<endl;
+ 
+  cout<<"  Jumlah transfer Rp. "<<Transfer<<endl;
+
+  cout<<"==============================================================="<<endl;
+
+  cout<<"  Sisa saldo anda Rp. "<<s<<endl;
+  cout<<"==============================================================="<<endl; 
+  }
