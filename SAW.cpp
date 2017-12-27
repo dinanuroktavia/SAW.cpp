@@ -126,3 +126,16 @@ class atm{
   cout<<"  Sisa saldo anda Rp. "<<s<<endl;
   cout<<"==============================================================="<<endl; 
   }
+  
+  
+  
+  cout<<"   Anda Ingin Mencoba Lagi ????"<<endl;
+  cout<<"   Tekan Y atau N : "; cin>>yes;
+
+  if(yes=='Y'||yes=='y')
+  {
+
+  goto atas;
+  }
+  else if(yes=='N'||yes=='n')
+  {
