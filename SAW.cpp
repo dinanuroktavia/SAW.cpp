@@ -91,3 +91,16 @@ class atm{
   cout <<"  Saldo anda Rp.5.000.000"<<endl;
   cout<<"==============================================================="<<endl;
   }
+  
+    else if (pilih==2)
+
+  {   
+  cout<<"  Masukan nilai uang : Rp.";
+
+  cin>>ambil;
+
+  s=1000000-ambil;
+
+  cout<<"  Sisa saldo anda Rp."<<s<<endl;
+        cout<<"===============================================================\n"<<endl;
+  }
